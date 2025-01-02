@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f9; /* Mint theme background */
+    color: #004d40; /* Mint theme text */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px;
+    background-color: #004d40; /* Mint theme primary color */
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e0f7fa;
+}
+
+.navbar-brand:hover {
+    color: #b2dfdb;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+    color: #e0f7fa;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #80cbc4;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #e0f7fa;
+}
+
+.navbar-toggler-icon {
+    color: #004d40;
+}
+
+/* Hero Section */
+.carousel {
+    margin-bottom: 20px;
+    height: 400px; /* Adjust for device-specific height */
+}
+
+.carousel .carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    background: rgba(0, 241, 177, 0.5);
+    color: #e0f7fa; /* Mint theme text color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Main Content */
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #00796b; /* Mint theme accent */
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgb(0, 255, 183);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #004d40; /* Mint theme text */
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #004d40;
+}
+
+/* Form */
+form .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #80cbc4;
+}
+
+form button {
+    border-radius: 5px;
+    background-color: #004d40; /* Mint theme button */
+    color: #e0f7fa;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #00796b;
+}
+
+/* Footer */
+footer {
+    background: #004d40; /* Mint theme footer */
+    color: #e0f7fa;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #80cbc4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #b2dfdb;
+}
+
+footer .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .carousel {
+        height: 300px; /* Adjust for smaller screens */
+    }
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+}
