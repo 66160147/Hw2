@@ -36,3 +36,6 @@
 - git add README.md
 - git commit -m "เพิ่ม ข้อมูลใน README"
 
+- git add .
+- git commit -m "ไฟล์ word "
+
